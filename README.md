@@ -7,7 +7,9 @@ Shift Baru: A
 ## Penjelasan Tiap Bagian Penting Kode
 
 1. **main.dart**
+
    File ini merupakan titik masuk utama aplikasi Flutter. main() menjalankan aplikasi dengan memuat widget MainApp sebagai root.
+   
    void main() {
    runApp(const MainApp());
    }
