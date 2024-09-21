@@ -1,7 +1,9 @@
 # Tugas Pertemuan 3
 
 Nama : Khansa Khalda
+
 NIM : H1D022086
+
 Shift Baru: A
 
 ## Penjelasan Tiap Bagian Penting Kode
@@ -186,6 +188,7 @@ Column: Menampilkan konten halaman secara vertikal.
    );
    }
    }
+
 **Penjelasan:**
 
 FeatureCard: Menampilkan informasi fitur dengan ikon, judul, dan deskripsi dalam format Card.
