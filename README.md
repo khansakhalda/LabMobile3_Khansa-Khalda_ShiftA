@@ -27,7 +27,9 @@ Shift Baru: A
    }
 
 **Penjelasan:**
+
 runApp(): Memulai aplikasi Flutter.
+
 MainApp: Widget utama aplikasi yang memuat MaterialApp dengan LoginPage sebagai halaman awal (home).
 
 2. **loginpage.dart**
@@ -72,8 +74,11 @@ MainApp: Widget utama aplikasi yang memuat MaterialApp dengan LoginPage sebagai 
    }
 
 **Penjelasan:**
+
 \_login(): Memeriksa kredensial, jika benar, menyimpan nama pengguna dan menampilkan dialog login berhasil.
+
 \_saveUsername(): Menyimpan nama pengguna ke SharedPreferences.
+
 \_showDialog(): Menampilkan dialog dan mengarahkan pengguna ke halaman tertentu setelah login.
 
 3. **homepage.dart**
@@ -111,8 +116,11 @@ MainApp: Widget utama aplikasi yang memuat MaterialApp dengan LoginPage sebagai 
    }
 
 **Penjelasan:**
+
 \_addTodo(): Menambah tugas baru ke daftar todoList dengan detail seperti deskripsi, prioritas, dan tanggal jatuh tempo.
+
 \_toggleCompletion(int index): Mengubah status tugas menjadi selesai atau belum selesai.
+
 \_removeTodoAtIndex(int index): Menghapus tugas dari daftar berdasarkan indeks.
 
 4. **about_page.dart**
@@ -139,8 +147,11 @@ MainApp: Widget utama aplikasi yang memuat MaterialApp dengan LoginPage sebagai 
    }
 
 **Penjelasan:**
+
 Scaffold: Struktur dasar halaman yang mencakup AppBar, body, dan drawer.
+
 SingleChildScrollView: Mengizinkan halaman untuk di-scroll jika konten melebihi tinggi layar.
+
 Column: Menampilkan konten halaman secara vertikal.
 
 5. **custom_cards.dart**
@@ -176,7 +187,9 @@ Column: Menampilkan konten halaman secara vertikal.
    }
    }
 **Penjelasan:**
+
 FeatureCard: Menampilkan informasi fitur dengan ikon, judul, dan deskripsi dalam format Card.
+
 CircleAvatar: Menggunakan lingkaran sebagai ikon utama.
 
 6. **sidemenu.dart**
@@ -227,10 +240,12 @@ CircleAvatar: Menggunakan lingkaran sebagai ikon utama.
    }
 
 **Penjelasan:**
+
 Drawer: Menampilkan menu samping dengan opsi navigasi.
+
 \_logout(): Menghapus data pengguna dari SharedPreferences dan mengarahkan ke halaman login.
 
----
+
 
 ## Tampilan Website
 
